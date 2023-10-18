@@ -125,6 +125,8 @@ GEM
     debug (1.8.0)
       irb (>= 1.5.0)
       reline (>= 0.3.1)
+    dockerfile-rails (1.5.10)
+      rails (>= 3.0.0)
     drb (2.1.1)
       ruby2_keywords
     erubi (1.12.0)
@@ -218,6 +220,11 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    sentry-rails (5.12.0)
+      railties (>= 5.0)
+      sentry-ruby (~> 5.12.0)
+    sentry-ruby (5.12.0)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
     sitepress-core (4.0.2)
       mime-types (>= 2.99)
     sitepress-rails (4.0.2)
@@ -269,6 +276,7 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  dockerfile-rails (>= 1.5)
   importmap-rails
   jbuilder
   markdown-rails (~> 2.1)
@@ -276,6 +284,8 @@ DEPENDENCIES
   rails!
   redis (>= 4.0.1)
   selenium-webdriver
+  sentry-rails (~> 5.12)
+  sentry-ruby (~> 5.12)
   sitepress-rails (~> 4.0)
   sprockets-rails
   sqlite3 (~> 1.4)

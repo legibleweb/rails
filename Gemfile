@@ -70,3 +70,9 @@ end
 gem "sitepress-rails", "~> 4.0"
 
 gem "markdown-rails", "~> 2.1"
+
+gem "dockerfile-rails", ">= 1.5", :group => :development
+
+gem "sentry-ruby", "~> 5.12"
+
+gem "sentry-rails", "~> 5.12"
