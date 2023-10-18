@@ -1,0 +1,1 @@
+web: Bin/rails server -p $PORT
