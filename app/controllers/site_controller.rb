@@ -4,7 +4,7 @@ class SiteController < ApplicationController
 
     respond_to do |format|
       format.html { render_resource resource, type: :md, layout: "application" }
-      format.all { render_resource resource, layout: "application" }
+      format.all { render_resource resource }
     end
   end
 
