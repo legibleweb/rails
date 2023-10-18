@@ -3,8 +3,8 @@ class SiteController < ApplicationController
     resource = Sitepress.site.get(request.path)
 
     respond_to do |format|
-      format.html { render_resource resource, type: :md, layout: "application" }
       format.all { render_resource resource }
+      format.html { render_resource resource, type: :md, layout: "application" }
     end
   end
 
