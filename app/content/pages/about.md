@@ -1,3 +1,7 @@
+---
+title: About
+---
+
 # Historic moment
 
 Here's a historic picture of the first time a resource was accessed over this new internet:
