@@ -13,3 +13,9 @@ Legible Web is built on top of existing standards, like HTTP 1.1, and passes on 
 It's pretty simple really. Request a resource with the `Accept: text/markdown` header and a markdown file gets served up for the client to render. That's it! That's the technology.
 
 Ok ok ... there's one more thing: navigation. It's a JSON file, which you can read more about at [Navigation](/navigation) or request the file via `Accept: application/json`.
+
+## Try it
+
+Download the [Chipmunk browser](https://github.com/danielrhodes/chipmunk-client) and surf the new web!
+
+🏄‍♂️🌍🏄‍♀️🌏🏄🌎

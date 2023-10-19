@@ -22,8 +22,9 @@ class SiteController < ApplicationController
     end
 
     def markdown_resource
-      json_resource = site.get(request.path)
-      json_resource.node.resources.format(:md)
+      # json_resource = site.get(request.path)
+      # json_resource.node.resources.format(:md)
+      Sitepress.site.root.resources.format(:md)
     end
 
     def navigation(resource)

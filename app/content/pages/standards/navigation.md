@@ -22,3 +22,7 @@ Since Markdown doesn't have navigation, its provided via a sideband navigation f
 ```
 
 [View an example](/?format=json)
+
+## Request Headers
+
+Navigation can be requested at a URI with the `Accept: application/json+navigation` header.
