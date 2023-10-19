@@ -98,6 +98,18 @@ GIT
       thor (~> 1.0, >= 1.2.2)
       zeitwerk (~> 2.6)
 
+GIT
+  remote: https://github.com/sitepress/sitepress.git
+  revision: 03b5adb97e5e743784e911e76aca6aec2194c8e8
+  specs:
+    sitepress-core (4.0.2)
+      mime-types (>= 2.99)
+    sitepress-rails (4.0.2)
+      actionpack (>= 6.0)
+      railties (>= 6.0)
+      sitepress-core (= 4.0.2)
+      sprockets-rails (>= 2.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -225,13 +237,6 @@ GEM
       sentry-ruby (~> 5.12.0)
     sentry-ruby (5.12.0)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-    sitepress-core (4.0.2)
-      mime-types (>= 2.99)
-    sitepress-rails (4.0.2)
-      actionpack (>= 6.0)
-      railties (>= 6.0)
-      sitepress-core (= 4.0.2)
-      sprockets-rails (>= 2.0.0)
     sprockets (4.2.1)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -286,7 +291,7 @@ DEPENDENCIES
   selenium-webdriver
   sentry-rails (~> 5.12)
   sentry-ruby (~> 5.12)
-  sitepress-rails (~> 4.0)
+  sitepress-rails (~> 4.0)!
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails

@@ -1,3 +1,7 @@
+---
+title: Home
+---
+
 # Legible Web
 
 Tired of how much crap is on the Internet? Let's fix it and build an internet that disincentivizes "influencers" and advertisers to the max, but delivers a fast, amazing reading experience.

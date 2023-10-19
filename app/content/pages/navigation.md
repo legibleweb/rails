@@ -1,3 +1,7 @@
+---
+title: Navigation
+---
+
 # Navigation
 
 Since Markdown doesn't have navigation, its provided via a sideband navigation format that looks like this:
